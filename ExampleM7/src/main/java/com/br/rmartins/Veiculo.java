@@ -34,7 +34,11 @@ public class Veiculo {
 	public void setValor(int valor) {
 		this.valor = valor;
 	}
-
+	
+	/**
+	 * 
+	 * @param valor Mostra um parametro que será passado ao metódo
+	 */
 	public void consultarValor(int valor) {
 		setValor(valor);
 	}
